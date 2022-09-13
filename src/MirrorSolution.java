@@ -2,10 +2,10 @@ public class MirrorSolution {
     public static final int SIZE = 4;
 
     public static void main(String[] args) {
-        Line();
+        line();
         topHalf();
         bottomHalf();
-        Line();
+        line();
     }
 
     public static void topHalf() {
@@ -44,7 +44,7 @@ public class MirrorSolution {
         }
     }
 
-    public static void Line() {
+    public static void line() {
         System.out.print("#");
         for (int i = 0; i < SIZE*4; i++) {  // Start at zero and make the test < SIZE * 4 [SIZE=3,12   =4, 16    =6,24]
             System.out.print("=");
